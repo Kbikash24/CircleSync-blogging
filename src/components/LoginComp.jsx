@@ -30,7 +30,7 @@ function LoginComp() {
 
   return (
     <div class="">
-    <div className="flex justify-center items-center h-screen bg-[url('assets\LoginLogo.jpg')] bg-cover bg-center ">
+    <div className="flex justify-center items-center h-screen bg-[url('public/LoginLogo.jpg')] bg-cover bg-center ">
       <div className=" px-10 py-10 rounded-xl border-2  shadow-lg bg-transparent shadow-slate-400 ">
         <div className="flex flex-col items-start">
           <h1 className="text-center text-[25px] text-slate-600 font-sans  font-bold   ">
@@ -74,7 +74,7 @@ function LoginComp() {
         </div>
         <div className="text-center text-[12px] text-gray-400 mb-2"><p>Or login with</p></div>
         <div className=" flex justify-center border-[2px] rounded-full mb-3 hover:shadow-lg ">
-            <img src="src\assets\google.png" className="w-[40px]"></img>
+            <img src="public/google.png" className="w-[40px]"></img>
           <button
             className=" w-full text-gray-600   py-2 rounded-full"
             onClick={googleLogin}
